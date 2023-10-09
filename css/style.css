@@ -60,7 +60,7 @@ nav {
 .nonslidingslider {
     padding-top: 260px;
     padding-bottom: 280px;
-    background-image: url(/images/slider_background.png);
+    background-image: url(../images/slider_background.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
