@@ -64,6 +64,7 @@ nav {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: #f5f5f7;
+    margin-bottom: 75px;
 }
 
 .nonslidingslider > .wrapper > h1 {
@@ -86,7 +87,7 @@ nav {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 7px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: #000000;
 }
@@ -202,6 +203,7 @@ footer > p > b {
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 29px;
 }
 
 .second-head > h2 {
@@ -258,43 +260,50 @@ footer > p > b {
     font-style: italic;
 }
 
+.heading{
+    max-width: 810px;
+    margin: 0 auto;
+}
+
 .heading > h4 {
-    margin-top: 40px ;
+    margin-top: 40px;
     margin-bottom: 30px;
-    margin-left: 220px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
 }
 
 form {
+    margin-top: 88px;
     text-align: center;
 }
 
 input[type="text"] {
     width: 235px;
     height: 35px;
-    padding-left: 10px;
-    border: 1px solid #e1e1e1;
     margin-right: 30px;
-}
-
-input[type="text"]::placeholder {
-
+    padding-left: 13px;
+    border: 1px solid #e1e1e1;
 }
 
 input[type="submit"] {
     width: 195px;
     height: 42px;
-    border-radius: 2px;
-    background-color: #000000;
+    margin-top: 25px;
+    margin-bottom: 75px;
     color: #ffffff;
+    background-color: #000000;
+    border-radius: 2px;
 }
 
 input[type="text"]:nth-child(4) {
     margin: 0;
 }
 
-textarea{
+textarea {
     width: 810px;
     height: 110px;
-    resize: none;
+    padding-left: 12px;
     border: 1px solid #e1e1e1;
+    resize: none;
 }
